@@ -1,5 +1,5 @@
-const {query} = require('express-validator/check');
-const {sanitizeQuery} = require('express-validator/filter');
+const {query} = require('express-validator');
+const {sanitizeQuery} = require('express-validator');
 const {isEqual} = require('lodash');
 
 module.exports = [
