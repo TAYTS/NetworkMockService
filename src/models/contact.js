@@ -34,15 +34,15 @@ const contactSchema = new Schema({
   },
   dob: {
     date: {type: String, required: true},
-    age: 48,
+    age: {type: Number, required: true},
   },
   registered: {
     date: {type: String, required: true},
-    age: 6,
+    age: {type: Number, required: true},
   },
   phone: {type: String, required: true},
   cell: {type: String, required: true},
-  id: {
+  contactId: {
     name: {type: String, required: true},
     value: {type: String, required: true},
   },
