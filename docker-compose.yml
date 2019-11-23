@@ -1,0 +1,29 @@
+version: "2.1"
+services:
+  network_service:
+    build:
+      context: ./
+    depends_on:
+      network_mongodb:
+        condition: service_healthy
+    image: network_service:latest
+    container_name: network_service
+    restart: always
+    ports:
+      - 8080:8080
+    links:
+      - network_mongodb
+
+  network_mongodb:
+    image: mongo:4.2
+    container_name: network_mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongouser
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    ports:
+      - 27017:27017
+    healthcheck:
+      test: echo mongo mongodb:27017
+      interval: 10s
+      timeout: 10s
+      retries: 5

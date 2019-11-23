@@ -1,0 +1,21 @@
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore node_modules folder
+node_modules
+
+# IDE
+*.code-workspace
+.vscode/
+
+# Ignore build files
+build
+
+# Ignore environment file
+.env
