@@ -3,7 +3,9 @@ module.exports = (error, req, res, next) => {
   const message = error.message || 'Server error';
 
   res.status(status).json({
-    message: message,
-    data: error.data,
+    data: {
+      message,
+      error: error.data,
+    },
   });
 };
