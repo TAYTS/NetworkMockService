@@ -34,8 +34,9 @@ mongoose
     dbName: process.env.MONGODB_DB_NAME,
     useNewUrlParser: true,
     useFindAndModify: false,
+    useUnifiedTopology: true,
   })
-  .then(result => {
+  .then(_ => {
     const PORT = process.env.PORT || 8080;
     app.listen(PORT);
     console.log(`Server start on ${PORT}`);
