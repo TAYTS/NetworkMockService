@@ -6,10 +6,13 @@ const express = require('express');
 /////////////////////////////////////////
 /*            import routes            */
 /////////////////////////////////////////
+const contactRoutes = require('./contact');
 
 /////////////////////////////////////////
 /*            setup routes             */
 /////////////////////////////////////////
 const app = express();
+
+app.use('/contact', contactRoutes);
 
 module.exports = app;
