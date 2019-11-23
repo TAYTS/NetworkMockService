@@ -6,6 +6,7 @@ const express = require('express');
 /////////////////////////////////////////
 /*            import routes            */
 /////////////////////////////////////////
+const apiDocsRoutes = require('./swagger');
 const contactRoutes = require('./contact');
 
 /////////////////////////////////////////
@@ -13,6 +14,7 @@ const contactRoutes = require('./contact');
 /////////////////////////////////////////
 const app = express();
 
+app.use('/api-docs', apiDocsRoutes);
 app.use('/contact', contactRoutes);
 
 module.exports = app;
