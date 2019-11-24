@@ -8,7 +8,8 @@
     "start": "node src/app.js",
     "dev-start": "nodemon src/app.js",
     "alias-link": "link-module-alias",
-    "clean-alias-link": "command -v link-module-alias && link-module-alias clean || true"
+    "clean-alias-link": "command -v link-module-alias && link-module-alias clean || true",
+    "deploy": "docker build . -t tayts/network-mock-service:latest && docker push tayts/network-mock-service:latest && docker image prune -f"
   },
   "author": "tayts",
   "license": "ISC",
