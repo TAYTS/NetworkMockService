@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~": ["."],
+      "~controllers": ["./src/controllers"],
+      "~graphql": ["./src/graphql"],
+      "~middlewares": ["./src/middlewares"],
+      "~models": ["./src/models"],
+      "~routes": ["./src/routes"],
+      "~utils": ["./src/utils"]
+    }
+  }
+}
