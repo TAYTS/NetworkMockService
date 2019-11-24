@@ -16,6 +16,3 @@ node_modules
 
 # Ignore build files
 build
-
-# Ignore environment file
-.env
