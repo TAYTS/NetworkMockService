@@ -28,7 +28,7 @@ router.use(
     schema,
     rootValue: resolver,
     graphiql: true,
-    formatError(err) {
+    customFormatErrorFn(err) {
       if (!err.originalError) {
         return err;
       }
