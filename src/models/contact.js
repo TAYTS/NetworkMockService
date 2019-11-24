@@ -54,4 +54,6 @@ const contactSchema = new Schema({
   nat: {type: String, required: true},
 });
 
+contactSchema.index({email: 'text'});
+
 module.exports = mongoose.model('Contact', contactSchema);

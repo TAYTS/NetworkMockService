@@ -7,7 +7,11 @@ const {param} = require('express-validator');
 /////////////////////////////////////////
 /*         import controllers          */
 /////////////////////////////////////////
-const {getAllContacts, getContactById} = require('~controllers/contact');
+const {
+  getAllContacts,
+  getContactById,
+  searchContact,
+} = require('~controllers/contact');
 
 /////////////////////////////////////////
 /*            import utils             */
@@ -196,6 +200,7 @@ const validatePageCount = require('~middlewares/validatePageCount');
  *                         $ref: "#/definitions/Contact"
  *                     totalCount:
  *                       type: number
+ *                       example: 1
  */
 router.get('/', validatePageCount, getAllContacts);
 
@@ -234,6 +239,60 @@ router.get(
       .withMessage('Please provide a valid contact id!'),
   ],
   getContactById,
+);
+
+/**
+ * @swagger
+ * /search/{name}:
+ *   get:
+ *     description: Search contacts by name
+ *     tags: [Contact]
+ *     produces:
+ *       - application/json
+ *     parameters:
+ *       - name: name
+ *         description: Person name
+ *         in: path
+ *         type: string
+ *         required: true
+ *       - name: page
+ *         description: Page number
+ *         in: query
+ *         type: number
+ *         default: 1
+ *       - name: count
+ *         description: Page size
+ *         in: query
+ *         type: number
+ *         default: 100
+ *     responses:
+ *       200:
+ *         description: Contacts data
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     contacts:
+ *                       type: array
+ *                       items:
+ *                         $ref: "#/definitions/Contact"
+ *                     totalCount:
+ *                       type: number
+ *                       example: 1
+ */
+router.get(
+  '/search/:name',
+  [
+    param('name')
+      .trim()
+      .isLength({min: 3, max: 15}),
+  ],
+  validatePageCount,
+  searchContact,
 );
 
 module.exports = router;

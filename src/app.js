@@ -35,6 +35,7 @@ mongoose
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true,
+    useCreateIndex: true,
   })
   .then(_ => {
     const PORT = process.env.PORT || 8080;
