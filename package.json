@@ -25,7 +25,8 @@
     "lodash": "^4.17.15",
     "mongoose": "^5.7.12",
     "swagger-jsdoc": "^3.4.0",
-    "swagger-ui-express": "^4.1.2"
+    "swagger-ui-express": "^4.1.2",
+    "validator": "^12.1.0"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
@@ -37,6 +38,7 @@
   "_moduleAliases": {
     "~": ".",
     "~controllers": "./src/controllers/",
+    "~graphql": "./src/graphql/",
     "~middlewares": "./src/middlewares/",
     "~models": "./src/models/",
     "~routes": "./src/routes/",

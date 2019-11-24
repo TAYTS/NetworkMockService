@@ -44,7 +44,7 @@ const contactSchema = new Schema({
   cell: {type: String, required: true},
   contactId: {
     name: {type: String, required: true},
-    value: {type: String, required: true},
+    value: {type: String},
   },
   picture: {
     large: {type: String, required: true},
