@@ -4,6 +4,7 @@
 const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const swaggerJSDoc = require('swagger-jsdoc');
+const {version} = require('~/package.json');
 
 /////////////////////////////////////////
 /*         import controllers          */
@@ -22,7 +23,7 @@ const swaggerSpec = swaggerJSDoc({
     openapi: '3.0.0',
     info: {
       title: 'Network Mock Service',
-      version: '1.0.0',
+      version,
     },
     basePath: '/',
   },
@@ -33,10 +34,6 @@ const swaggerSpec = swaggerJSDoc({
 /*             define routes           */
 /////////////////////////////////////////
 router.use('/', swaggerUI.serve);
-router.get('/', swaggerUI.setup(swaggerSpec, {}));
-router.get('/test.json', (req, res) => {
-  res.setHeader('Content-Type', 'application/json');
-  res.send(swaggerSpec);
-});
+router.get('/', swaggerUI.setup(swaggerSpec));
 
 module.exports = router;
