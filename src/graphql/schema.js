@@ -72,14 +72,15 @@ module.exports = buildSchema(`
       cell: String!
     }
 
-    type ContactData {
+    type ContactListData {
       contacts: [Contact!]!
       totalCount: Int!
     }
 
     type RootQuery {
-      contacts(page: Int, count: Int): ContactData!
+      contacts(page: Int, count: Int): ContactListData!
       contact(id: ID!): Contact!
+      searchContact(name: String!, page: Int, count: Int): ContactListData!
     }
 
     type RootMutation {

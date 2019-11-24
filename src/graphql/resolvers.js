@@ -1,7 +1,7 @@
 /////////////////////////////////////////
 /*        import external library      */
 /////////////////////////////////////////
-const {isEmail, isMongoId} = require('validator');
+const {isEmail, isMongoId, isLength} = require('validator');
 const {map} = require('lodash');
 
 /////////////////////////////////////////
@@ -79,6 +79,53 @@ module.exports = {
     return {
       ...contactData._doc,
       _id: contactData._id.toString(),
+    };
+  },
+  searchContact: async function({name, page, count}) {
+    // Validate input
+    const errors = [];
+    if (!isLength(name, {min: 3, max: 15})) {
+      errors.push({message: 'Name string length should be between 3 and 15.'});
+    }
+    if (page <= 0) {
+      errors.push({message: 'Invalid page number.'});
+    }
+    if (count <= 0) {
+      errors.push({message: 'Invalid page count.'});
+    }
+
+    if (errors.length > 0) {
+      const error = new Error('Invalid input.');
+      error.data = errors;
+      error.code = 422;
+      throw error;
+    }
+
+    const currentPage = page || 1;
+    const itemPerPage = count || 100;
+    const searchString = name;
+
+    const totalCountPromise = Contact.find({
+      $text: {$search: searchString},
+    }).countDocuments();
+
+    const contactDataPromise = Contact.find({$text: {$search: searchString}})
+      .skip((currentPage - 1) * itemPerPage)
+      .limit(itemPerPage);
+
+    const [totalCount, contactData] = await Promise.all([
+      totalCountPromise,
+      contactDataPromise,
+    ]);
+
+    return {
+      contacts: map(contactData, contact => {
+        return {
+          ...contact._doc,
+          _id: contact._id.toString(),
+        };
+      }),
+      totalCount,
     };
   },
   updateEmail: async function({id, email}, req) {
