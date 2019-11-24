@@ -243,7 +243,7 @@ router.get(
 
 /**
  * @swagger
- * /search/{name}:
+ * /contact/search/{name}:
  *   get:
  *     description: Search contacts by name
  *     tags: [Contact]
