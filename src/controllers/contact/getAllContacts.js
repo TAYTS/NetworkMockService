@@ -16,12 +16,14 @@ const validationHandler = require('~utils/validationHandler');
 /////////////////////////////////////////
 /*           define controller         */
 /////////////////////////////////////////
-module.exports = async function getAllEvents(req, res, next) {
+module.exports = async function getAllContacts(req, res, next) {
   const errors = validationResult(req);
 
   try {
+    // 1. Validate the query params
     validationHandler(errors, null, 422);
 
+    // 2. Query the data
     const currentPage = req.query.page || 1;
     const itemPerPage = req.query.count || 100;
 
@@ -35,6 +37,7 @@ module.exports = async function getAllEvents(req, res, next) {
       contactDataPromise,
     ]);
 
+    // 3. Return the response
     res.status(200).json({
       data: {
         contacts: contactData,

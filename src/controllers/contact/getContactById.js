@@ -20,9 +20,11 @@ module.exports = async function getAllEvents(req, res, next) {
   const errors = validationResult(req);
 
   try {
+    // 1. Validate the query params
     validationHandler(errors, null, 422);
-    const contactId = req.params.contactId;
 
+    // 2. Query the data
+    const contactId = req.params.contactId;
     const contactData = await Contact.findById(contactId);
 
     if (!contactData) {
@@ -31,6 +33,7 @@ module.exports = async function getAllEvents(req, res, next) {
       throw error;
     }
 
+    // 3. Return the response
     res.status(200).json({
       data: contactData,
     });
