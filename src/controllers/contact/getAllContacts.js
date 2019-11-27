@@ -28,7 +28,7 @@ module.exports = async function getAllContacts(req, res, next) {
     const itemPerPage = req.query.count || 100;
 
     const totalCountPromise = Contact.find().countDocuments();
-    const contactDataPromise = await Contact.find()
+    const contactDataPromise = Contact.find()
       .skip((currentPage - 1) * itemPerPage)
       .limit(itemPerPage);
 
