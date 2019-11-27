@@ -1,0 +1,161 @@
+R time: 0.11133360862731934     G time: 0.07426261901855469     R size: 5341    G size: 877     R status:    2
+00      G status:       200
+R time: 0.06393003463745117     G time: 0.09764647483825684     R size: 5341    G size: 877     R status:    2
+00      G status:       200
+R time: 0.07865452766418457     G time: 1.4552316665649414      R size: 5341    G size: 877     R status:    2
+00      G status:       200
+R time: 0.10950493812561035     G time: 0.12799644470214844     R size: 5341    G size: 877     R status:    2
+00      G status:       200
+R time: 0.08203339576721191     G time: 0.14732742309570312     R size: 5341    G size: 877     R status:    2
+00      G status:       200
+R time: 0.12099575996398926     G time: 0.09230279922485352     R size: 5341    G size: 877     R status:    2
+00      G status:       200
+R time: 0.07639503479003906     G time: 0.1404407024383545      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.15369725227355957     G time: 0.1317901611328125      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09589982032775879     G time: 0.0719761848449707      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07735276222229004     G time: 0.12421703338623047     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10004782676696777     G time: 0.10291242599487305     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07341361045837402     G time: 0.12731337547302246     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09590482711791992     G time: 0.08118534088134766     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12606549263000488     G time: 0.06589150428771973     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.14279603958129883     G time: 0.1538832187652588      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.13402938842773438     G time: 0.08472919464111328     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12842702865600586     G time: 0.07307171821594238     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08227920532226562     G time: 0.11750388145446777     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12468957901000977     G time: 0.29091429710388184     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.3913719654083252      G time: 0.2575795650482178      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.13550019264221191     G time: 0.07211947441101074     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.13529014587402344     G time: 0.10408258438110352     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08788704872131348     G time: 0.09926676750183105     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0963132381439209      G time: 0.10435342788696289     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09125804901123047     G time: 0.10688138008117676     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09691572189331055     G time: 1.3910181522369385      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09338665008544922     G time: 0.09301400184631348     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09519314765930176     G time: 0.125626802444458       R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09474778175354004     G time: 0.06566858291625977     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07720518112182617     G time: 0.11980319023132324     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.14432716369628906     G time: 0.09168314933776855     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08640193939208984     G time: 0.10945010185241699     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08223438262939453     G time: 0.12226557731628418     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10648512840270996     G time: 0.06954240798950195     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07320356369018555     G time: 0.09579157829284668     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.14617228507995605     G time: 0.10927653312683105     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07949614524841309     G time: 0.09389686584472656     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11517524719238281     G time: 0.07729792594909668     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.1275930404663086      G time: 0.08747506141662598     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07843613624572754     G time: 0.06784319877624512     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.15598607063293457     G time: 0.09932851791381836     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0708463191986084      G time: 1.2908670902252197      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12383651733398438     G time: 0.0719752311706543      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07701539993286133     G time: 0.18685507774353027     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08064985275268555     G time: 0.10675573348999023     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12254548072814941     G time: 0.16021370887756348     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11322402954101562     G time: 0.0958249568939209      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07289934158325195     G time: 2.5151729583740234      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11507582664489746     G time: 0.09171938896179199     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0867762565612793      G time: 0.11513614654541016     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11771845817565918     G time: 0.06911683082580566     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0749356746673584      G time: 0.1298537254333496      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09899210929870605     G time: 0.0952138900756836      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 1.3032782077789307      G time: 0.11529111862182617     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07547521591186523     G time: 0.1049959659576416      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10942649841308594     G time: 0.08628177642822266     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10377955436706543     G time: 0.08616518974304199     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11679291725158691     G time: 0.0924384593963623      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09887814521789551     G time: 0.13311052322387695     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0917060375213623      G time: 0.07812786102294922     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12008380889892578     G time: 0.08661580085754395     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10249137878417969     G time: 0.08718514442443848     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09238672256469727     G time: 0.09920072555541992     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10531210899353027     G time: 0.08667421340942383     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0870668888092041      G time: 0.1381208896636963      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.214249849319458       G time: 0.07375979423522949     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07370138168334961     G time: 0.07001018524169922     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0837101936340332      G time: 0.15814208984375        R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10279631614685059     G time: 0.11520004272460938     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.06098031997680664     G time: 0.07403874397277832     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.14525341987609863     G time: 0.09428620338439941     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08237528800964355     G time: 0.08603167533874512     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.15288662910461426     G time: 0.0763542652130127      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11674165725708008     G time: 0.08426475524902344     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.1260972023010254      G time: 0.09180259704589844     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09809565544128418     G time: 0.10048222541809082     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08660531044006348     G time: 0.0625612735748291      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12064313888549805     G time: 0.08108997344970703     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.13708829879760742     G time: 0.06255578994750977     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.06671714782714844     G time: 0.07237720489501953     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.18404102325439453     G time: 0.10691285133361816     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07768917083740234     G time: 0.07214641571044922     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07565999031066895     G time: 0.1710970401763916      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10025358200073242     G time: 0.08424997329711914     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09138965606689453     G time: 0.11284852027893066     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10011124610900879     G time: 0.11174893379211426     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07300066947937012     G time: 0.15903019905090332     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07951545715332031     G time: 0.07837247848510742     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10282588005065918     G time: 0.06613707542419434     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07133316993713379     G time: 0.07416439056396484     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07332086563110352     G time: 0.10933327674865723     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09211254119873047     G time: 0.10808873176574707     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07736492156982422     G time: 0.12263679504394531     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09626221656799316     G time: 0.07946443557739258     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11331701278686523     G time: 0.10189962387084961     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.1017904281616211      G time: 0.09213948249816895     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08005833625793457     G time: 0.1429760456085205      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08160734176635742     G time: 0.09254336357116699     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11113572120666504     G time: 0.06855607032775879     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.1928238868713379      G time: 0.06787252426147461     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.17043471336364746     G time: 0.09000968933105469     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10959267616271973     G time: 0.10477924346923828     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09720206260681152     G time: 0.08974623680114746     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10488104820251465     G time: 0.06334590911865234     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11325836181640625     G time: 0.0682835578918457      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.15523529052734375     G time: 0.08719754219055176     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08089613914489746     G time: 0.06359410285949707     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10072016716003418     G time: 0.1571061611175537      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0899965763092041      G time: 0.07451200485229492     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08089947700500488     G time: 0.1421034336090088      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10568523406982422     G time: 0.11364340782165527     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07854795455932617     G time: 0.12436199188232422     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11094903945922852     G time: 0.16713809967041016     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09521746635437012     G time: 0.11082124710083008     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08903360366821289     G time: 0.07158374786376953     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.1542520523071289      G time: 0.068695068359375       R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11522555351257324     G time: 0.13242650032043457     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09070229530334473     G time: 0.07194757461547852     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08804798126220703     G time: 0.23253273963928223     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.17922401428222656     G time: 0.08716726303100586     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12425398826599121     G time: 0.07833361625671387     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09256315231323242     G time: 0.12005496025085449     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09881186485290527     G time: 0.08091163635253906     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.1325521469116211      G time: 0.16129279136657715     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10946416854858398     G time: 0.2349100112915039      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08912539482116699     G time: 0.08004164695739746     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07629132270812988     G time: 0.1253211498260498      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09095120429992676     G time: 0.06625103950500488     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07687926292419434     G time: 0.14831137657165527     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10225868225097656     G time: 0.2012803554534912      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.23705601692199707     G time: 0.10479593276977539     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0755157470703125      G time: 0.08475661277770996     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08529806137084961     G time: 0.09617161750793457     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.16846370697021484     G time: 0.06991052627563477     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.18021225929260254     G time: 0.08370280265808105     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10627412796020508     G time: 0.2002427577972412      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10911846160888672     G time: 0.08991861343383789     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07367610931396484     G time: 0.12689495086669922     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.10454654693603516     G time: 0.10570597648620605     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.12569236755371094     G time: 0.12915349006652832     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07776761054992676     G time: 0.1487433910369873      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.11658287048339844     G time: 0.10175228118896484     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.1206502914428711      G time: 0.15963459014892578     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08963394165039062     G time: 0.10109448432922363     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08895754814147949     G time: 0.1104884147644043      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08409285545349121     G time: 0.1280355453491211      R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.09822678565979004     G time: 0.08196711540222168     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.08491802215576172     G time: 0.12532830238342285     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.0973963737487793      G time: 0.09735822677612305     R size: 5341    G size: 877     R status:    200      G status:       200
+R time: 0.07565879821777344     G time: 0.12015509605407715     R size: 5341    G size: 877     R status:    200      G status:       200
+************************* DONE *************************
+
+Average REST time:      0.11450446287790934     Average GraphQL time:   0.14836975733439128     REST content size:    5341    GraphQL content size:   877     REST status code:       200     GraphQL status code:    200
+
+GraphQL is slower than REST by 0.03386529445648194s or 29.575523613076015%

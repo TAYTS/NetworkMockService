@@ -1,4 +1,6 @@
 node_modules/
+database/
+evaluation_script/
 .git
 .eslintrc
 .eslintignore
@@ -6,3 +8,4 @@ node_modules/
 .prettierrc
 .jsconfig.json
 .env.temp
+README.md

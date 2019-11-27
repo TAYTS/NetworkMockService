@@ -23,7 +23,7 @@ module.exports = buildSchema(`
       street: String!
       city: String!
       state: String!
-      postcode: Int!
+      postcode: Int
     }
 
     type Login {
@@ -47,7 +47,7 @@ module.exports = buildSchema(`
     }
 
     type ContactID {
-      name: String!
+      name: String
       value: String
     }
 
