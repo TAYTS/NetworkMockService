@@ -1,6 +1,6 @@
 {
   "name": "networkmockservice",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Network Mock Service",
   "main": "app.js",
   "scripts": {
